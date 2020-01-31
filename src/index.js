@@ -3,7 +3,7 @@ export const rating = number => {
         return "Excellent!";
     } else if (number === 4) {
         return "Great!";
-    } else if (number === 3) {
+    } else if (number === 3) { 
         return "Okay.";
     } else if (number <= 2) {
         return "Try something else!";
